@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>my Address Book</title>
+    <link rel="stylesheet" href="address_book.css">
+    <script src="address_book.js"></script>
+    
+    
+</head>
+<body>
+    <nav>
+        <h1>My Address Book</h1>
+        <section id="new">
+            <h2>Add New Contact</h2>
+            <form>
+                <p>Full Name <input type="text" id="fullname" class="entryfields"></p>
+                <p>Mobile Number <input type="number" id="number" class="entryfields"></p>
+                <p>Email Address <input type="email" id="email" class="entryfields"></p>
+                <p>City <input type="text" id="city" class="entryfields"></p>
+                <button type="submit" id="submit">ADD CONTACT</button>
+                <button type="reset" id="reset">RESET</button>
+            </form>
+        </section>
+    </nav>
+
+    <section id="demo">
+        <div class="entry">
+            <div class="name"><p></p></div>
+            <div class="number"><p></p></div>
+            <div class="email"><p></p></div>
+            <div class="city"><p></p></div>
+            <div class="del"><button>Delete Contact</button></div>
+            <div class="edit"><button>Edit Contact</button></div>  
+        </div>
+
+    </section>
+
+    
+
+</body>
+</html>
